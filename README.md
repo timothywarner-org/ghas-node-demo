@@ -237,7 +237,6 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 - **GitHub Advanced Security** team for the excellent tooling
 - **CodeQL community** for query contributions
-- **Caterpillar** for the learning opportunity
 
 ---
 
