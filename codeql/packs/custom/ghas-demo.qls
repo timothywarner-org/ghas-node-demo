@@ -1,0 +1,13 @@
+- description: "GHAS Demo Suite - Standard JavaScript Security Queries"
+  queries:
+    - uses: security-and-quality
+  from: codeql/javascript-queries
+
+- description: "GHAS Demo Suite - Extended Node.js Queries"
+  queries:
+    - uses: security-extended
+  from: codeql/javascript-queries
+
+- description: "GHAS Demo Suite - Custom Demo Queries"
+  queries:
+    - uses: ./secret-scan.ql

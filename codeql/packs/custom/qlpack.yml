@@ -1,0 +1,6 @@
+name: ghas-demo-custom
+version: 1.0.0
+library: false
+defaultSuite: default
+dependencies:
+  codeql/javascript-all: "*"

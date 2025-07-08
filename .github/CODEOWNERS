@@ -1,0 +1,11 @@
+# Global owners
+* @timwarner
+
+# Security-related files
+/.github/workflows/ @timwarner
+/codeql/ @timwarner
+/scripts/ @timwarner
+
+# Configuration files
+package.json @timwarner
+.github/dependabot.yml @timwarner

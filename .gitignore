@@ -137,3 +137,11 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# CodeQL
+codeql/cli/codeql*
+codeql/cli/*.zip
+codeql/database/
+codeql/results/
+*.bqrs
+*.sarif
