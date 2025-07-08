@@ -30,7 +30,6 @@ jobs:
         uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
-          queries: security-and-quality,security-extended
           config-file: ./codeql/packs/custom/ghas-demo.qls
 
       - name: Autobuild
