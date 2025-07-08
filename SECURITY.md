@@ -14,7 +14,7 @@ We take the security of the GHAS Node.js Demo seriously. If you believe you have
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, please report them via email to the maintainers at [INSERT EMAIL].
+Instead, please report them via email to the maintainers at timothywarner316@gmail.com.
 
 You should receive a response within 48 hours. If for some reason you do not, please follow up via email to ensure we received your original message.
 

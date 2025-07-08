@@ -258,6 +258,13 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 - **GitHub Advanced Security** team for the excellent tooling
 - **CodeQL community** for query contributions
 
+## 📞 Contact
+
+- **Website:** [techtrainertim.com](https://techtrainertim.com)
+- **GitHub:** [@timothywarner](https://github.com/timothywarner)
+- **Organization:** [@timothywarner-org](https://github.com/timothywarner-org)
+- **Email:** timothywarner316@gmail.com
+
 ---
 
 **Ready to secure your code?** 🚀

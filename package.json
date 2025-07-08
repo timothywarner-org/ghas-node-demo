@@ -25,7 +25,11 @@
     "javascript",
     "security-tools"
   ],
-  "author": "Tim Warner",
+  "author": {
+    "name": "Tim Warner",
+    "email": "timothywarner316@gmail.com",
+    "url": "https://techtrainertim.com"
+  },
   "license": "ISC",
   "repository": {
     "type": "git",
