@@ -1,5 +1,12 @@
 # GitHub Advanced Security (GHAS) Node.js Console Demo App
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](https://nodejs.org/)
+[![CodeQL](https://github.com/timothywarner-org/ghas-node-demo/workflows/CodeQL%20Analysis/badge.svg)](https://github.com/timothywarner-org/ghas-node-demo/actions?query=workflow%3A%22CodeQL+Analysis%22)
+[![Dependabot](https://img.shields.io/badge/dependabot-enabled-brightgreen.svg)](https://dependabot.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
+
 > **Node.js console app scaffold for practical GitHub Advanced Security (GHAS) learning and teaching**
 
 This project demonstrates all three **GHAS pillars** in a hands-on 45-minute session:
@@ -223,11 +230,24 @@ npm install
 
 ## 🤝 Contributing
 
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+### Quick Start for Contributors
 1. Fork the repository
-2. Create a feature branch
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
-4. Ensure CodeQL passes
-5. Submit a pull request
+4. Ensure CodeQL passes (`npm run codeql:scan`)
+5. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
+
+### Development Setup
+```bash
+git clone https://github.com/your-username/ghas-node-demo.git
+cd ghas-node-demo
+npm install
+npm run codeql:download
+```
 
 ## 📄 License
 

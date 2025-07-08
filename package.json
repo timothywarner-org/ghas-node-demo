@@ -2,16 +2,39 @@
   "name": "ghas-node-demo",
   "version": "1.0.0",
   "description": "Node.js console app scaffold for practical GitHub Advanced Security (GHAS) learning and teaching. Demonstrates GHAS pillars: Dependency Review, CodeQL scanning, and Secret Scanning.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "codeql:download": "node scripts/download-codeql.js",
     "codeql:scan": "node scripts/run-codeql-scan.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ghas", "security", "codeql", "github-advanced-security", "demo"],
-  "author": "",
+  "keywords": [
+    "ghas",
+    "security",
+    "codeql",
+    "github-advanced-security",
+    "demo",
+    "education",
+    "training",
+    "vulnerability-scanning",
+    "secret-scanning",
+    "dependency-scanning",
+    "security-demo",
+    "nodejs",
+    "javascript",
+    "security-tools"
+  ],
+  "author": "Tim Warner",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothywarner-org/ghas-node-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timothywarner-org/ghas-node-demo/issues"
+  },
+  "homepage": "https://github.com/timothywarner-org/ghas-node-demo#readme",
   "dependencies": {
     "figlet": "^1.7.0",
     "chalk": "^4.1.2",
@@ -19,5 +42,16 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "files": [
+    "src/",
+    "scripts/",
+    "codeql/",
+    ".github/",
+    "README.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "LICENSE"
+  ]
 }
