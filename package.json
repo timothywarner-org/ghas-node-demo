@@ -42,7 +42,8 @@
   "dependencies": {
     "figlet": "^1.7.0",
     "chalk": "^4.1.2",
-    "inquirer": "^8.2.6"
+    "inquirer": "^8.2.6",
+    "lodash": "4.17.20"
   },
   "engines": {
     "node": ">=18.0.0"
