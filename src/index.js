@@ -5,6 +5,7 @@ const path = require('path');
 const chalk = require('chalk');
 const figlet = require('figlet');
 const inquirer = require('inquirer');
+const { showCopilotMetricsDemo } = require('./copilot-metrics');
 
 // ASCII Art Banner
 console.clear();
@@ -21,6 +22,7 @@ async function showMenu() {
         { name: '🔧 Inject Dependency Issue', value: 'dependency' },
         { name: '🔍 Inject Code Scanning Issue', value: 'codescan' },
         { name: '🔐 Inject Secret Scanning Issue', value: 'secret' },
+        { name: '📊 GitHub Copilot Metrics Demo', value: 'copilot-metrics' },
         { name: '🚪 Exit', value: 'exit' }
       ]
     }
@@ -35,6 +37,9 @@ async function showMenu() {
       break;
     case 'secret':
       await injectSecretIssue();
+      break;
+    case 'copilot-metrics':
+      await showCopilotMetricsDemo();
       break;
     case 'exit':
       console.log(chalk.green('👋 Thanks for using GHAS Demo!'));
