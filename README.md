@@ -48,6 +48,7 @@ npm start
 - 🔧 **Inject Dependency Issue** - Adds vulnerable `lodash@4.17.20` to `package.json`
 - 🔍 **Inject Code Scanning Issue** - Creates `src/vulnerable.js` with `eval()` and SQL injection patterns
 - 🔐 **Inject Secret Scanning Issue** - Creates `src/secrets.js` with fake Stripe, AWS, and GitHub tokens
+- 📊 **GitHub Copilot Metrics Demo** - Interactive tutorial for GitHub CLI and Copilot Metrics API
 - 🚪 **Exit** - Clean exit
 
 ### CodeQL Integration
@@ -147,6 +148,14 @@ ghas-node-demo/
 - **Custom Detection:** Enhanced secret patterns via CodeQL
 - **File Tracking:** Secrets are committed (not gitignored) for demo purposes
 
+### 4. GitHub Copilot Metrics
+- **Interactive Tutorial:** Comprehensive guide to GitHub CLI and Copilot Metrics API
+- **Organization Metrics:** Usage patterns, adoption rates, and user engagement tracking
+- **Enterprise Metrics:** Cross-organization insights and enterprise-wide analytics  
+- **Practical Examples:** Real GitHub CLI commands with detailed explanations
+- **Visualization Concepts:** Charts, dashboards, and data presentation strategies
+- **Tutorial Documentation:** Complete step-by-step guide in `COPILOT_METRICS_TUTORIAL.md`
+
 ## 🎓 Learning Objectives
 
 ### For Developers
@@ -154,6 +163,7 @@ ghas-node-demo/
 - Understand CodeQL query language and custom queries
 - Experience real-time secret scanning protection
 - Learn proper commit message conventions for dependency updates
+- Use GitHub CLI to fetch and analyze Copilot usage metrics
 
 ### For Security Engineers
 - Write and test custom CodeQL queries for specific patterns
@@ -186,6 +196,12 @@ ghas-node-demo/
 - [CodeQL Repository](https://github.com/github/codeql)
 - [CodeQL Query Packs](https://github.com/github/codeql/tree/main/javascript/ql/src)
 - [Writing CodeQL Queries](https://codeql.github.com/docs/writing-codeql-queries/)
+
+### GitHub Copilot Metrics Resources
+- [GitHub Copilot API Documentation](https://docs.github.com/en/rest/copilot)
+- [GitHub CLI Manual](https://cli.github.com/manual/)
+- [Copilot Metrics Tutorial](./COPILOT_METRICS_TUTORIAL.md) (Local tutorial file)
+- [GitHub Copilot for Business](https://docs.github.com/en/copilot/copilot-for-business)
 
 ## 🚨 Branch Protection Setup
 
