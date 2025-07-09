@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/timothywarner-org/ghas-node-demo#readme",
   "dependencies": {
-    "chalk": "^4.1.2",
+    "chalk": "^5.4.1",
     "figlet": "^1.7.0",
     "inquirer": "^8.2.6",
     "lodash": "4.17.20"
