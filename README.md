@@ -1,6 +1,6 @@
 # GitHub Advanced Security (GHAS) Node.js Console Demo App
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](https://nodejs.org/)
 [![CodeQL](https://github.com/timothywarner-org/ghas-node-demo/workflows/CodeQL%20Analysis/badge.svg)](https://github.com/timothywarner-org/ghas-node-demo/actions?query=workflow%3A%22CodeQL+Analysis%22)
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-brightgreen.svg)](https://dependabot.com/)
@@ -251,7 +251,7 @@ npm run codeql:download
 
 ## 📄 License
 
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
