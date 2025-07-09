@@ -7,7 +7,9 @@
     "start": "node src/index.js",
     "codeql:download": "node scripts/download-codeql.js",
     "codeql:scan": "node scripts/run-codeql-scan.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [
     "ghas",
@@ -40,10 +42,13 @@
   },
   "homepage": "https://github.com/timothywarner-org/ghas-node-demo#readme",
   "dependencies": {
-    "figlet": "^1.7.0",
     "chalk": "^4.1.2",
+    "figlet": "^1.7.0",
     "inquirer": "^8.2.6",
     "lodash": "4.17.20"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   },
   "engines": {
     "node": ">=18.0.0"
